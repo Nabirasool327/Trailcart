@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Eligible_for_Blood_Donation__c</fullName>
+    <externalId>false</externalId>
+    <formula>AND( Age__c &gt; 18,  Weight__c &gt; 50, today() -  Last_Donated_Date__c &gt; 90)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Eligible for Blood Donation</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

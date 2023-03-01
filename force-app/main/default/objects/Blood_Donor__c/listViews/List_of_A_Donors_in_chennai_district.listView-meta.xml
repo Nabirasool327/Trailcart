@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>List_of_A_Donors_in_chennai_district</fullName>
+    <columns>NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Blood_Group__c</field>
+        <operation>equals</operation>
+        <value>A+</value>
+    </filters>
+    <label>List of A+ Donors in chennai district</label>
+</ListView>

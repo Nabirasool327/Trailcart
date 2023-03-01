@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Attender</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( NOT(ISBLANK( Attender_name__c )), ISBLANK( Attender_contact_number__c )  )</errorConditionFormula>
+    <errorDisplayField>Attender_contact_number__c</errorDisplayField>
+    <errorMessage>Attender name must be there!!</errorMessage>
+</ValidationRule>

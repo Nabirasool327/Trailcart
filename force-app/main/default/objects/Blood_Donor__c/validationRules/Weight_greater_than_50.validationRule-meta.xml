@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Weight_greater_than_50</fullName>
+    <active>false</active>
+    <errorConditionFormula>Weight__c &lt; 50</errorConditionFormula>
+    <errorDisplayField>Weight__c</errorDisplayField>
+    <errorMessage>Weight should be greater than 50</errorMessage>
+</ValidationRule>

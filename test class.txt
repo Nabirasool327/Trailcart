@@ -1,0 +1,8 @@
+@isTest
+public class CreateAccountTest {
+	static testMethod void testInsertAccount() {
+                caseparameterwrap=cpw;
+		CPW=12345;
+		ca.createAccount('modified here');
+	}
+}
